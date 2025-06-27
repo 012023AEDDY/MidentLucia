@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>MidentLucia</title>
+        <title>Investa - Investment Website Template</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -72,52 +72,30 @@
             <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;">
             </div>
             <div class="container px-0">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
-                    <a href="index.html" class="navbar-brand p-0">
-                        <h1 class="text-primary m-0"><i class="fas fa-donate me-3"></i>Investa</h1>
-                        <!-- <img src="img/logo.png" alt="Logo"> -->
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="fa fa-bars"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav ms-auto py-0">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="service.html" class="nav-item nav-link">Services</a>
-                            <a href="project.html" class="nav-item nav-link">Projects</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                                <div class="dropdown-menu m-0">
-                                    <a href="blog.html" class="dropdown-item">Our Blog</a>
-                                    <a href="team.html" class="dropdown-item">Our Team</a>
-                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                    <a href="faqs.html" class="dropdown-item">FAQs</a>
-                                    <a href="404.html" class="dropdown-item">404 Page</a>
-                                </div>
-                            </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
-                        </div>
-                        <div class="d-flex align-items-center flex-nowrap pt-xl-0">
-                            
-                            <button class="btn btn-primary btn-md-square mx-2" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                          <!--cambiando el boton de login y registro-->
-                          
-                            @if (Route::has('login'))
-            <nav class="d-flex">
-                @auth
-                    <a class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0" href="{{ url('/dashboard') }}">Dashboard</a>
-                @else
-                    <a class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0" href="{{ route('login') }}">Log in</a>
-                    @if (Route::has('register'))
-                        <a class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0" href="{{ route('register') }}">Register</a>
-                    @endif
-                @endauth
-            </nav>
-        @endif
+                <nav class="navbar navbar-expand-lg navbar-dark bg-white py-0 px-0" style="border-radius:7px;height: 60px; margin: 0;">
+                    <div class="container-fluid d-flex align-items-center" style="height: 100%; padding: 0; margin: 0;">
 
+                    <a href="index.html" class="navbar-brand p-0">
+                        <a class="navbar-brand d-flex align-items-center ms-4 me-5" href="{{ route('login') }}">
+                        <img src="img/diente.png" alt="Logo" style="height: 65px; margin-right: 10px;">
+                        <span class="ms-2 fw-bold text-dark margin-left: 50px;" style="color: #3456de; font-weight: bold;">MidentLucia</span>
+                    </a>
+
+
+                    </a>
+                            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                            <div class="navbar-nav py-0 gap-3"> <!-- Usamos gap con Bootstrap 5 -->
+                                <a href="{{ url('/') }}" class="nav-item nav-link">Inicio</a>
+                                <a href="{{ url('/acerca de') }}" class="nav-item nav-link">Acerca de</a>
+                                <a href="{{ url('/servicios') }}" class="nav-item nav-link active">Servicios</a>
+                                <a href="{{ url('/especialistas') }}" class="nav-item nav-link">Especialistas</a>
+                                <a href="{{ url('/testimonios') }}" class="nav-item nav-link">Testimonios</a>
+                                <a href="{{ url('/contactenos') }}" class="nav-item nav-link">Contactenos</a>
+                            </div>
                         </div>
-                    </div>
                 </nav>
             </div>
         </div>
@@ -142,135 +120,19 @@
         </div>
         <!-- Modal Search End -->
 
-        <!-- Carousel Start -->
-        <div class="header-carousel owl-carousel">
-            <div class="header-carousel-item">
-                <div class="header-carousel-item-img-1">
-                    <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
-                </div>
-                <div class="carousel-caption">
-                    <div class="carousel-caption-inner text-start p-3">
-                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">The most prestigious Investments company in worldwide.</h1>
-                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        </p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Apply Now</a>
-                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="header-carousel-item mx-auto">
-                <div class="header-carousel-item-img-2">
-                    <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
-                </div>
-                <div class="carousel-caption">
-                    <div class="carousel-caption-inner text-center p-3">
-                        <h1 class="display-1 text-capitalize text-white mb-4">The most prestigious Investments company in worldwide.</h1>
-                        <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        </p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
-                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="header-carousel-item">
-                <div class="header-carousel-item-img-3">
-                    <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Image">
-                </div>
-                <div class="carousel-caption">
-                    <div class="carousel-caption-inner text-end p-3">
-                        <h1 class="display-1 text-capitalize text-white mb-4">The most prestigious Investments company in worldwide.</h1>
-                        <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        </p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
-                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a>
-                    </div>
-                </div>
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="bg-breadcrumb-single"></div>
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h4>
+                <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active text-primary">Service</li>
+                </ol>    
             </div>
         </div>
-        <!-- Carousel End -->
-
-
-        <!-- About Start -->
-        <div class="container-fluid about bg-light py-5">
-            <div class="container py-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="about-img">
-                            <img src="img/about-3.png" class="img-fluid w-100 rounded-top bg-white" alt="Image">
-                            <img src="img/about-2.jpg" class="img-fluid w-100 rounded-bottom" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
-                        <h4 class="text-primary">About Us</h4>
-                        <h1 class="display-5 mb-4">The most Profitable Investments company in worldwide.</h1>
-                        <p class="text ps-4 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores atque nihil unde quisquam, deleniti illo a. Quam harum laboriosam, laudantium, deleniti perferendis voluptates ex non laborum libero magni, minus illo!
-                        </p>
-                        <div class="row g-4 justify-content-between mb-5">
-                            <div class="col-lg-6 col-xl-5">
-                                <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Strategy & Consulting</p>
-                                <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Business Process</p>
-                            </div>
-                            <div class="col-lg-6 col-xl-7">
-                                <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Marketing Rules</p>
-                                <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Partnerships</p>
-                            </div>
-                        </div>
-                        <div class="row g-4 justify-content-between mb-5">
-                            <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Discover More</a></div>
-                            <div class="col-xl-7 mb-5">
-                                <div class="about-customer d-flex position-relative">
-                                    <img src="img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 0; top: 0;"  alt="Image">
-                                    <img src="img/customer-img-2.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 45px; top: 0;" alt="Image">
-                                    <img src="img/customer-img-3.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 90px; top: 0;" alt="Image">
-                                    <img src="img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 135px; top: 0;" alt="Image">
-                                    <div class="position-absolute text-dark" style="left: 220px; top: 10px;">
-                                        <p class="mb-0">5m+ Trusted</p>
-                                        <p class="mb-0">Global Customers</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row g-4 text-center align-items-center justify-content-center">
-                            <div class="col-sm-4">
-                                <div class="bg-primary rounded p-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <span class="counter-value fs-1 fw-bold text-dark" data-toggle="counter-up">32</span>
-                                        <h4 class="text-dark fs-1 mb-0" style="font-weight: 600; font-size: 25px;">k+</h4>
-                                    </div>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <p class="text-white mb-0">Project Complete</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="bg-dark rounded p-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <span class="counter-value fs-1 fw-bold text-white" data-toggle="counter-up">21</span>
-                                        <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
-                                    </div>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <p class="mb-0">Years Of Experience</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="bg-primary rounded p-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <span class="counter-value fs-1 fw-bold text-dark" data-toggle="counter-up">97</span>
-                                        <h4 class="text-dark fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
-                                    </div>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <p class="text-white mb-0">Team Members</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
+        <!-- Header End -->
 
         <!-- Services Start -->
         <div class="container-fluid service py-5">
@@ -347,241 +209,6 @@
             </div>
         </div>
         <!-- Services End -->
-
-
-        <!-- Project Start -->
-        <div class="container-fluid project">
-            <div class="container">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Projects</h4>
-                    <h1 class="display-4">Explore Our Latest Projects</h1>
-                </div>
-                <div class="project-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="project-img">
-                            <img src="img/projects-1.jpg" class="img-fluid w-100 rounded" alt="Image">
-                        </div>
-                        <div class="project-content bg-light rounded p-4">
-                            <div class="project-content-inner">
-                                <div class="project-icon mb-3"><i class="fas fa-chart-line fa-4x text-primary"></i></div>
-                                <p class="text-dark fs-5 mb-3">Business Growth</p>
-                                <a href="#" class="h4">Business Strategy And Investment Planning Growth Consulting</a>
-                                <div class="pt-4">
-                                    <a class="btn btn-light rounded-pill py-3 px-5" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="project-img">
-                            <img src="img/projects-1.jpg" class="img-fluid w-100 rounded" alt="Image">
-                        </div>
-                        <div class="project-content bg-light rounded p-4">
-                            <div class="project-content-inner">
-                                <div class="project-icon mb-3"><i class="fas fa-signal fa-4x text-primary"></i></div>
-                                <p class="text-dark fs-5 mb-3">Marketing Strategy</p>
-                                <a href="#" class="h4">Product Sailing Marketing Strategy For Improve Business</a>
-                                <div class="pt-4">
-                                    <a class="btn btn-light rounded-pill py-3 px-5" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-item h-100">
-                        <div class="project-img">
-                            <img src="img/projects-1.jpg" class="img-fluid w-100 rounded" alt="Image">
-                        </div>
-                        <div class="project-content bg-light rounded p-4">
-                            <div class="project-content-inner">
-                                <div class="project-icon mb-3"><i class="fas fa-signal fa-4x text-primary"></i></div>
-                                <p class="text-dark fs-5 mb-3">Marketing Strategy</p>
-                                <a href="#" class="h4">Product Sailing Marketing Strategy For Improve Business</a>
-                                <div class="pt-4">
-                                    <a class="btn btn-light rounded-pill py-3 px-5" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project End -->
-
-
-        <!-- Blog Start -->
-        <div class="container-fluid blog pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Blogs</h4>
-                    <h1 class="display-4">Latest Articles & News from the Blogs</h1>
-                </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png);">
-                            <div class="mb-4">
-                                <h4 class="text-primary mb-2">Investment</h4>
-                                <div class="d-flex justify-content-between">
-                                    <p class="mb-0"><span class="text-dark fw-bold">On</span> Mar 14, 2024</p>
-                                    <p class="mb-0"><span class="text-dark fw-bold">By</span> Mark D. Brock</p>
-                                </div>
-                            </div>
-                            <div class="project-img">
-                                <img src="img/blog-1.jpg" class="img-fluid w-100 rounded" alt="Image">
-                                <div class="blog-plus-icon">
-                                    <a href="img/blog-1.jpg" data-lightbox="blog-1" class="btn btn-primary btn-md-square rounded-pill"><i class="fas fa-plus fa-1x"></i></a>
-                                </div>
-                            </div>
-                            <div class="my-4">
-                                <a href="#" class="h4">Revisiting Your Investment & Distribution Goals</a>
-                            </div>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Explore More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png);">
-                            <div class="mb-4">
-                                <h4 class="text-primary mb-2">Business</h4>
-                                <div class="d-flex justify-content-between">
-                                    <p class="mb-0"><span class="text-dark fw-bold">On</span> Mar 14, 2024</p>
-                                    <p class="mb-0"><span class="text-dark fw-bold">By</span> Mark D. Brock</p>
-                                </div>
-                            </div>
-                            <div class="project-img">
-                                <img src="img/blog-2.jpg" class="img-fluid w-100 rounded" alt="Image">
-                                <div class="blog-plus-icon">
-                                    <a href="img/blog-2.jpg" data-lightbox="blog-2" class="btn btn-primary btn-md-square rounded-pill"><i class="fas fa-plus fa-1x"></i></a>
-                                </div>
-                            </div>
-                            <div class="my-4">
-                                <a href="#" class="h4">Dimensional Fund Advisors Interview with Director</a>
-                            </div>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Explore More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png);">
-                            <div class="mb-4">
-                                <h4 class="text-primary mb-2">Consulting</h4>
-                                <div class="d-flex justify-content-between">
-                                    <p class="mb-0"><span class="text-dark fw-bold">On</span> Mar 14, 2024</p>
-                                    <p class="mb-0"><span class="text-dark fw-bold">By</span> Mark D. Brock</p>
-                                </div>
-                            </div>
-                            <div class="project-img">
-                                <img src="img/blog-3.jpg" class="img-fluid w-100 rounded" alt="Image">
-                                <div class="blog-plus-icon">
-                                    <a href="img/blog-3.jpg" data-lightbox="blog-3" class="btn btn-primary btn-md-square rounded-pill"><i class="fas fa-plus fa-1x"></i></a>
-                                </div>
-                            </div>
-                            <div class="my-4">
-                                <a href="#" class="h4">Interested in Giving Back this year? Here are some tips</a>
-                            </div>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Explore More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Blog End -->
-
-
-        <!-- Team Start -->
-        <div class="container-fluid team pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Team</h4>
-                    <h1 class="display-4">Our Investa Company Dedicated Team Member</h1>
-                </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="img/team-1.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
-
 
         <!-- Testimonial Start -->
         <div class="container-fluid testimonial bg-light py-5">
