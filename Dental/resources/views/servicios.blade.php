@@ -47,10 +47,10 @@
             <div class="container px-0">
                 <div class="row gx-0 align-items-center" style="height: 45px;">
                     <div class="col-lg-8 text-center text-lg-start mb-lg-0">
-                        <div class="d-flex flex-wrap">
-                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
-                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
-                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
+                         <div class="d-flex flex-wrap">
+                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Calle Tecte #234, Cusco, Perú</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+51 997 498 670</a>
+                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>MidentLucia@gmail.com</a>
                         </div>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
@@ -77,8 +77,8 @@
 
                     <a href="index.html" class="navbar-brand p-0">
                         <a class="navbar-brand d-flex align-items-center ms-4 me-5" href="{{ route('login') }}">
-                        <img src="img/diente.png" alt="Logo" style="height: 65px; margin-right: 10px;">
-                        <span class="ms-2 fw-bold text-dark margin-left: 50px;" style="color: #3456de; font-weight: bold;">MidentLucia</span>
+                        <img src="img/diente1.png" alt="Logo" style="height: 40px; margin-right: 0px;">
+                        <span class=" ms-2 fw-bold text-dark margin-left: 50px;" style="color:rgb(0, 19, 61); font-weight: bold;font-weight: bold;font-family:'Roboto', sans-serif">MidentLucia</span>
                     </a>
 
 
@@ -88,12 +88,12 @@
                 </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
                             <div class="navbar-nav py-0 gap-3"> <!-- Usamos gap con Bootstrap 5 -->
-                                <a href="{{ url('/') }}" class="nav-item nav-link">Inicio</a>
+                                <a href="{{ url('/') }}" class="nav-item nav-link active">Inicio</a>
                                 <a href="{{ url('/acerca de') }}" class="nav-item nav-link">Acerca de</a>
-                                <a href="{{ url('/servicios') }}" class="nav-item nav-link active">Servicios</a>
+                                <a href="{{ url('/servicios') }}" class="nav-item nav-link">Servicios</a>
                                 <a href="{{ url('/especialistas') }}" class="nav-item nav-link">Especialistas</a>
                                 <a href="{{ url('/testimonios') }}" class="nav-item nav-link">Testimonios</a>
-                                <a href="{{ url('/contactenos') }}" class="nav-item nav-link">Contactenos</a>
+                                <a href="{{ url('/contactenos') }}" class="nav-item nav-link">Contáctenos</a>
                             </div>
                         </div>
                 </nav>
@@ -388,8 +388,9 @@ Además, tenemos las mejores promociones para ti y toda tu familia. Porque tu sa
         </div>
         <!-- FAQ End -->
 
-        <!-- Footer Start -->
+                <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+<<<<<<< HEAD
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-6 col-xl-3">
@@ -445,32 +446,57 @@ Además, tenemos las mejores promociones para ti y toda tu familia. Porque tu sa
                             </div>
                             <div class="footer-btn text-start">
                                 <a href="#" class="btn btn-light rounded-pill px-4">View All Post <i class="fa fa-arrow-right ms-1"></i></a>
+=======
+            <div class="container py-10">
+                <div class="row g-5 align-items-stretch">
+
+
+                    <!-- Explora -->
+                    <div class="col-10 col-md-6 col-lg-2 d-flex">
+                        <div class="footer-item d-flex flex-column w-100">
+                            <h4 class="text-white mb-4">Explora</h4>
+                            <a href="{{ url('/') }}"><i class="fas fa-angle-right me-2"></i> Inicio</a>
+                            <a href="{{ url('/acerca de') }}"><i class="fas fa-angle-right me-2"></i> Acerca de</a>
+                            <a href="{{ url('/servicios') }}"><i class="fas fa-angle-right me-2"></i> Servicios</a>
+                            <a href="{{ url('/especialistas') }}"><i class="fas fa-angle-right me-2"></i> Especialistas</a>
+                            <a href="{{ url('/testimonios') }}"><i class="fas fa-angle-right me-2"></i> Testimonios</a>
+                            <a href="{{ url('/contactenos') }}"><i class="fas fa-angle-right me-2"></i> Contáctenos</a>
+                        </div>
+                    </div>
+
+                    <!-- Contáctenos -->
+                    <div class="col-10 col-md-6 col-lg-4 d-flex">
+                        <div class="footer-item d-flex flex-column w-100">
+                            <h4 class="text-white mb-4">Contáctenos</h4>
+                            <p class="mb-3">Visítanos y experimenta una atención cálida, profesional y accesible.</p>
+                            <a href="#"><i class="fa fa-map-marker-alt me-2"></i> Calle Tecte #234, Cusco, Perú</a>
+                            <a href="tel:+51997498670"><i class="fas fa-phone me-2"></i> 997 498 670</a>
+                            <a href="mailto:MidentLucia@gmail.com"><i class="fas fa-envelope me-2"></i> MidentLucia@gmail.com</a>
+                            <div class="d-flex align-items-center mt-3">
+                                <a class="btn btn-light btn-md-square me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-light btn-md-square me-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-light btn-md-square me-2" href="#"><i class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Registro -->
+                    <div class="col-10 col-lg-6 d-flex">
+                        <div class="footer-item d-flex flex-column w-100">
+                            <h4 class="text-white mb-4">¿Quieres mejorar tu salud dental?</h4>
+                            <p class="mb-3">Regístrate, déjanos tus comentarios o agenda tu cita con nosotros. ¡Estamos listos para atenderte!</p>
+                            <div class="position-relative rounded-pill">
+                                <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="email" placeholder="Ingresa tu correo electrónico">
+                                <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Registrarse</button>
+>>>>>>> aabc344 (Actualización completa de especialistas y comentarios)
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
         <!-- Footer End -->
-
-        
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-body"><a href="#" class="border-bottom text-primary"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-body">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-primary" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-primary" href="https://themewagon.com">ThemeWagon</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Copyright End -->
 
 
         <!-- Back to Top -->

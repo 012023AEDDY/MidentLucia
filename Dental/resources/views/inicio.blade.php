@@ -48,9 +48,9 @@
                 <div class="row gx-0 align-items-center" style="height: 45px;">
                     <div class="col-lg-8 text-center text-lg-start mb-lg-0">
                         <div class="d-flex flex-wrap">
-                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
-                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
-                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Calle Tecte #234, Cusco, Perú</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+51 997 498 670</a>
+                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>MidentLucia@gmail.com</a>
                         </div>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
@@ -77,8 +77,8 @@
 
                     <a href="index.html" class="navbar-brand p-0">
                         <a class="navbar-brand d-flex align-items-center ms-4 me-5" href="{{ route('login') }}">
-                        <img src="img/diente.png" alt="Logo" style="height: 65px; margin-right: 10px;">
-                        <span class="ms-2 fw-bold text-dark margin-left: 50px;" style="color: #3456de; font-weight: bold;">MidentLucia</span>
+                        <img src="img/diente1.png" alt="Logo" style="height: 40px; margin-right: 0px;">
+                        <span class=" ms-2 fw-bold text-dark margin-left: 50px;" style="color:rgb(0, 19, 61); font-weight: bold;font-weight: bold;font-family:'Roboto', sans-serif">MidentLucia</span>
                     </a>
 
 
@@ -93,7 +93,7 @@
                                 <a href="{{ url('/servicios') }}" class="nav-item nav-link">Servicios</a>
                                 <a href="{{ url('/especialistas') }}" class="nav-item nav-link">Especialistas</a>
                                 <a href="{{ url('/testimonios') }}" class="nav-item nav-link">Testimonios</a>
-                                <a href="{{ url('/contactenos') }}" class="nav-item nav-link">Contactenos</a>
+                                <a href="{{ url('/contactenos') }}" class="nav-item nav-link">Contáctenos</a>
                             </div>
                         </div>
                 </nav>
@@ -497,10 +497,11 @@
         <!-- Team Start -->
         <div class="container-fluid team pb-5">
             <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Team</h4>
-                    <h1 class="display-4">Our Investa Company Dedicated Team Member</h1>
-                </div>
+                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 1000px;">
+                    <h4 class="text-primary">Nuestro Equipo de Especialistas</h4>
+                    <h1 class="display-4">Profesionales comprometidos con tu salud bucal.</h1>
+
+     </div>
                 <div class="row g-4 justify-content-center">
                     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item rounded">
@@ -517,8 +518,9 @@
                             </div>
                             <div class="team-content bg-dark text-center rounded-bottom p-4">
                                 <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
+                                    <h4 class="text-white">Dra. Ana Lucía Rondán Aguirre</h4>
+                                    <p class="text-muted mb-0">Cirujana Dentista</p>
+                                    <p class="text-muted mb-0">COP 138421</p>
                                 </div>
                             </div>
                         </div>
@@ -538,50 +540,10 @@
                             </div>
                             <div class="team-content bg-dark text-center rounded-bottom p-4">
                                 <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
+                                    <h4 class="text-white">Dr. Carlos Martín Méndez Brock</h4>
+                                    <p class="text-muted mb-0">Ortodoncista</p>
+                                    <p class="text-muted mb-0">COP 14302</p>
+
                                 </div>
                             </div>
                         </div>
@@ -591,76 +553,114 @@
         </div>
         <!-- Team End -->
 
+        
 
-        <!-- Testimonial Start -->
-        <div class="container-fluid testimonial bg-light py-5">
+        
+<!-- Testimonial Start -->
+        <div class="container-fluid testimonials py-5">
             <div class="container py-5">
-                <div class="row g-4 align-items-center">
-                    <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="h-100 rounded">
-                            <h4 class="text-primary">Our Feedbacks </h4>
-                            <h1 class="display-4 mb-4">Clients are Talking</h1>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque soluta unde itaque. Consequatur quam odit blanditiis harum veritatis porro.</p>
-                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read All Reviews <i class="fas fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-8">
-                        <div class="testimonial-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="d-flex">
-                                    <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
-                                    </p>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
-                                    </div>
-                                    <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-1.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="d-flex">
-                                    <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
-                                    </p>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
-                                    </div>
-                                    <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-2.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.7s">
-                                <div class="d-flex">
-                                    <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
-                                    </p>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
-                                    </div>
-                                    <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-3.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 1000px;">
+                    <h4 class="text-primary">Nuestros Testimonios</h4>
+                    <h1 class="display-5 mb-4">Lo Que Nuestros Clientes Dicen de Nosotros</h1>
+                    <p class="mb-0">Cada historia refleja nuestro compromiso con la calidad, la atención y la confianza que brindamos.</p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
+
+                <div class="testimonial-item">
+  <div class="d-flex align-items-center mb-3">
+    <div class="testimonial-img">
+      <img src="img/testimonial-1.jpg" class="img-fluid" alt="Image">
+    </div>
+    <div class="ms-4">
+      <h4 class="mb-1"> Laura Martínez</h4>
+      <p class="mb-1">Tratamiento de Ortodoncia</p>
+      <div class="d-flex text-primary">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+    </div>
+  </div>
+  <p class="testimonial-text mb-0">
+    <i class="fas fa-quote-left me-2 text-primary"></i>
+  Mi experiencia con el tratamiento de ortodoncia fue excelente. El Dr. Méndez me explicó todo el proceso detalladamente y los resultados superaron mis expectativas. Ahora puedo sonreír con confianza. <i class="fas fa-quote-right me-2 text-primary"></i>
+</div>
+
+<div class="testimonial-item">
+  <div class="d-flex align-items-center mb-3">
+    <div class="testimonial-img">
+      <img src="img/testimonial-2.jpg" class="img-fluid" alt="Image">
+    </div>
+    <div class="ms-4">
+      <h4 class="mb-1"> Amy Dávalos</h4>
+      <p class="mb-1">Tratamiento de Periodoncia </p>
+      <div class="d-flex text-primary">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+
+      </div>
+    </div>
+  </div>
+  <p class="testimonial-text mb-0">
+    <i class="fas fa-quote-left me-2 text-primary"></i>
+  Mi experiencia con el tratamiento de periodoncia fue excelente. El Dr. Méndez me explicó todo el proceso detalladamente y los resultados superaron mis expectativas. <i class="fas fa-quote-right me-2 text-primary"></i>
+</div>
+<div class="testimonial-item">
+  <div class="d-flex align-items-center mb-3">
+    <div class="testimonial-img">
+      <img src="img\testimonial-5.jpeg" class="img-fluid" alt="Image">
+    </div>
+    <div class="ms-4">
+      <h4 class="mb-1"> Paoleth Miranda</h4>
+      <p class="mb-1">Tratamiento de Endodoncia </p>
+      <div class="d-flex text-primary">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+    </div>
+  </div>
+  <p class="testimonial-text mb-0">
+    <i class="fas fa-quote-left me-2 text-primary"></i>
+   Perdí una pieza dental en un accidente y pensé que nada volvería a ser igual. Gracias al tratamiento con implantes, recuperé no solo mi sonrisa, sino también mi seguridad al hablar y comer. El resultado fue tan natural que nadie nota la diferencia. Estoy muy agradecido con el equipo profesional que me atendió.
+  <i class="fas fa-quote-right me-2 text-primary"></i>
+</p>
+</div>
+
+<div class="testimonial-item">
+  <div class="d-flex align-items-center mb-3">
+    <div class="testimonial-img">
+      <img src="img/testimonial-3.jpg" class="img-fluid" alt="Image">
+    </div>
+    <div class="ms-4">
+      <h4 class="mb-1">Saúl López</h4>
+      <p class="mb-1">Limpieza dental</p>
+      <div class="d-flex text-primary">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+    </div>
+  </div>
+  <p class="testimonial-text mb-0">
+    <i class="fas fa-quote-left me-2 text-primary"></i>
+    Siempre me preocupó el mal aliento y la acumulación de sarro, pero no sabía que una limpieza profunda podía hacer tanta diferencia. La atención fue excelente, el procedimiento cómodo y al salir sentí una frescura única. Ahora visito al dentista con regularidad y mi salud bucal ha mejorado muchísimo.</p>
+    <i class="fas fa-quote-right ms-2 text-primary"></i>
+</div>
+
+
+                  
                 </div>
             </div>
         </div>
         <!-- Testimonial End -->
-
+ 
 
         <!-- FAQ Start -->
         <div class="container-fluid faq py-5">
@@ -737,89 +737,57 @@
         </div>
         <!-- FAQ End -->
 
-        <!-- Footer Start -->
+            <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <div class="footer-item">
-                                <h4 class="text-white mb-4">Newsletter</h4>
-                                <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-                                <div class="position-relative mx-auto rounded-pill">
-                                    <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                                    <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
-                                </div>
+            <div class="container py-10">
+                <div class="row g-5 align-items-stretch">
+
+
+                    <!-- Explora -->
+                    <div class="col-10 col-md-6 col-lg-2 d-flex">
+                        <div class="footer-item d-flex flex-column w-100">
+                            <h4 class="text-white mb-4">Explora</h4>
+                            <a href="{{ url('/') }}"><i class="fas fa-angle-right me-2"></i> Inicio</a>
+                            <a href="{{ url('/acerca de') }}"><i class="fas fa-angle-right me-2"></i> Acerca de</a>
+                            <a href="{{ url('/servicios') }}"><i class="fas fa-angle-right me-2"></i> Servicios</a>
+                            <a href="{{ url('/especialistas') }}"><i class="fas fa-angle-right me-2"></i> Especialistas</a>
+                            <a href="{{ url('/testimonios') }}"><i class="fas fa-angle-right me-2"></i> Testimonios</a>
+                            <a href="{{ url('/contactenos') }}"><i class="fas fa-angle-right me-2"></i> Contáctenos</a>
+                        </div>
+                    </div>
+
+                    <!-- Contáctenos -->
+                    <div class="col-10 col-md-6 col-lg-4 d-flex">
+                        <div class="footer-item d-flex flex-column w-100">
+                            <h4 class="text-white mb-4">Contáctenos</h4>
+                            <p class="mb-3">Visítanos y experimenta una atención cálida, profesional y accesible.</p>
+                            <a href="#"><i class="fa fa-map-marker-alt me-2"></i> Calle Tecte #234, Cusco, Perú</a>
+                            <a href="tel:+51997498670"><i class="fas fa-phone me-2"></i> 997 498 670</a>
+                            <a href="mailto:MidentLucia@gmail.com"><i class="fas fa-envelope me-2"></i> MidentLucia@gmail.com</a>
+                            <div class="d-flex align-items-center mt-3">
+                                <a class="btn btn-light btn-md-square me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-light btn-md-square me-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-light btn-md-square me-2" href="#"><i class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Explore</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Latest Projects</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> testimonial</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Our Team</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Contact Info</h4>
-                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
-                            <div class="d-flex align-items-center">
-                                <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-light btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Registro -->
+                    <div class="col-10 col-lg-6 d-flex">
+                        <div class="footer-item d-flex flex-column w-100">
+                            <h4 class="text-white mb-4">¿Quieres mejorar tu salud dental?</h4>
+                            <p class="mb-3">Regístrate, déjanos tus comentarios o agenda tu cita con nosotros. ¡Estamos listos para atenderte!</p>
+                            <div class="position-relative rounded-pill">
+                                <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="email" placeholder="Ingresa tu correo electrónico">
+                                <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Registrarse</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item-post d-flex flex-column">
-                            <h4 class="text-white mb-4">Popular Post</h4>
-                            <div class="d-flex flex-column mb-3">
-                                <p class="text-uppercase text-primary mb-2">Investment</p>
-                                <a href="#" class="text-body">Revisiting Your Investment & Distribution Goals</a>
-                            </div>
-                            <div class="d-flex flex-column mb-3">
-                                <p class="text-uppercase text-primary mb-2">Business</p>
-                                <a href="#" class="text-body">Dimensional Fund Advisors Interview with Director</a>
-                            </div>
-                            <div class="footer-btn text-start">
-                                <a href="#" class="btn btn-light rounded-pill px-4">View All Post <i class="fa fa-arrow-right ms-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
         <!-- Footer End -->
-
-        
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-body"><a href="#" class="border-bottom text-primary"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-body">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-primary" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-primary" href="https://themewagon.com">ThemeWagon</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Copyright End -->
 
 
         <!-- Back to Top -->
