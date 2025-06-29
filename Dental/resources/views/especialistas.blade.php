@@ -48,9 +48,9 @@
                 <div class="row gx-0 align-items-center" style="height: 45px;">
                     <div class="col-lg-8 text-center text-lg-start mb-lg-0">
                         <div class="d-flex flex-wrap">
-                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
-                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
-                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Calle Tecte #234, Cusco, Perú</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+51 997 498 670</a>
+                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>MidentLucia@gmail.com</a>
                         </div>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
@@ -77,10 +77,9 @@
 
                     <a href="index.html" class="navbar-brand p-0">
                         <a class="navbar-brand d-flex align-items-center ms-4 me-5" href="{{ route('login') }}">
-                        <img src="img/diente.png" alt="Logo" style="height: 65px; margin-right: 10px;">
-                        <span class="ms-2 fw-bold text-dark margin-left: 50px;" style="color: #3456de; font-weight: bold;">MidentLucia</span>
+                        <img src="img/diente1.png" alt="Logo" style="height: 40px; margin-right: 0px;">
+                        <span class=" ms-2 fw-bold text-dark margin-left: 50px;" style="color:rgb(0, 19, 61); font-weight: bold;font-weight: bold;font-family:'Roboto', sans-serif">MidentLucia</span>
                     </a>
-
 
                     </a>
                             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -88,12 +87,12 @@
                 </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
                             <div class="navbar-nav py-0 gap-3"> <!-- Usamos gap con Bootstrap 5 -->
-                                <a href="{{ url('/') }}" class="nav-item nav-link">Inicio</a>
-                                <a href="{{ url('/acerca de') }}" class="nav-item nav-link">Acerca de </a>
+                                <a href="{{ url('/') }}" class="nav-item nav-link active">Inicio</a>
+                                <a href="{{ url('/acerca de') }}" class="nav-item nav-link">Acerca de</a>
                                 <a href="{{ url('/servicios') }}" class="nav-item nav-link">Servicios</a>
-                                <a href="{{ url('/especialistas') }}" class="nav-item nav-link active">Especialitas</a>
+                                <a href="{{ url('/especialistas') }}" class="nav-item nav-link">Especialistas</a>
                                 <a href="{{ url('/testimonios') }}" class="nav-item nav-link">Testimonios</a>
-                                <a href="{{ url('/contactenos') }}" class="nav-item nav-link">Contactenos</a>
+                                <a href="{{ url('/contactenos') }}" class="nav-item nav-link">Contáctenos</a>
                             </div>
                         </div>
                 </nav>
@@ -124,17 +123,24 @@
         <div class="container-fluid bg-breadcrumb">
             <div class="bg-breadcrumb-single"></div>
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Team</h4>
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Nuestros Especialistas</h4>
                 <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+<<<<<<< HEAD
                 <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Pages</a></li>
                 <li class="breadcrumb-item active text-primary">Odontologo</li>
+=======
+                <li class="breadcrumb-item"><a href="{{ url('/') }}">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="#">Páginas</a></li>
+                <li class="breadcrumb-item active text-primary">Especialidades</li>
+>>>>>>> 6599327c171076067c355c0959bbf041ac18815d
             </ol>
             
             </div>
         </div>
         <!-- Header End -->
 
+<<<<<<< HEAD
         <!-- Team Start -->
         <div class="container-fluid team py-5">
             <div class="container py-5">
@@ -239,90 +245,113 @@
             </div>
         </div>
         <!-- Team End -->
+=======
+         <!-- Doctors Section -->
+    <section id="doctors" class="doctors section mt-5 mb-5">
+>>>>>>> 6599327c171076067c355c0959bbf041ac18815d
 
-        <!-- Footer Start -->
+      <!-- Section Title -->
+     <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 1000px;">
+                    <h4 class="text-primary">Nuestro Equipo de Especialistas</h4>
+                    <h1 class="display-4">Profesionales comprometidos con tu salud bucal.</h1>
+                     <p class="mb-0">Contamos con un equipo de profesionales altamente calificados y con amplia experiencia en diferentes áreas de la odontología.
+                    </p>
+     </div>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="img\team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h3>Dra. Ana Lucía Rondán Aguirre</h3>
+                <h6 class="d-flex gap-3">
+                  <span>Cirujana Dentista</span>
+                  <span>COP 138421</span>
+                </h6>
+                <h6>Formación Académica:</h6>
+                <p> Máster en Ortodoncia Pontificia Universidad Javeriana — Colombia Junio 2018 <br>
+                Doctorado en Estética Dental Universidad de Barcelona — España Marzo 2021</p>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="img\team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h3>Dr. Carlos Martín Méndez </h3>
+                 <h6 class="d-flex gap-3">
+                  <span>Ortodoncia</span>
+                  <span>COP 102093</span>
+                </h6>
+                <h6>Formación Académica:</h6>
+                <p> Especialización en Rehabilitación Oral Universidad Nacional Autónoma de México — México Agosto 2017<br>
+                Doctorado en Estética Dental Universidad de Barcelona — España Marzo 2021</p>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /Doctors Section -->
+
+            <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <div class="footer-item">
-                                <h4 class="text-white mb-4">Newsletter</h4>
-                                <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-                                <div class="position-relative mx-auto rounded-pill">
-                                    <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                                    <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
-                                </div>
+            <div class="container py-10">
+                <div class="row g-5 align-items-stretch">
+
+
+                    <!-- Explora -->
+                    <div class="col-10 col-md-6 col-lg-2 d-flex">
+                        <div class="footer-item d-flex flex-column w-100">
+                            <h4 class="text-white mb-4">Explora</h4>
+                            <a href="{{ url('/') }}"><i class="fas fa-angle-right me-2"></i> Inicio</a>
+                            <a href="{{ url('/acerca de') }}"><i class="fas fa-angle-right me-2"></i> Acerca de</a>
+                            <a href="{{ url('/servicios') }}"><i class="fas fa-angle-right me-2"></i> Servicios</a>
+                            <a href="{{ url('/especialistas') }}"><i class="fas fa-angle-right me-2"></i> Especialistas</a>
+                            <a href="{{ url('/testimonios') }}"><i class="fas fa-angle-right me-2"></i> Testimonios</a>
+                            <a href="{{ url('/contactenos') }}"><i class="fas fa-angle-right me-2"></i> Contáctenos</a>
+                        </div>
+                    </div>
+
+                    <!-- Contáctenos -->
+                    <div class="col-10 col-md-6 col-lg-4 d-flex">
+                        <div class="footer-item d-flex flex-column w-100">
+                            <h4 class="text-white mb-4">Contáctenos</h4>
+                            <p class="mb-3">Visítanos y experimenta una atención cálida, profesional y accesible.</p>
+                            <a href="#"><i class="fa fa-map-marker-alt me-2"></i> Calle Tecte #234, Cusco, Perú</a>
+                            <a href="tel:+51997498670"><i class="fas fa-phone me-2"></i> 997 498 670</a>
+                            <a href="mailto:MidentLucia@gmail.com"><i class="fas fa-envelope me-2"></i> MidentLucia@gmail.com</a>
+                            <div class="d-flex align-items-center mt-3">
+                                <a class="btn btn-light btn-md-square me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-light btn-md-square me-2" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-light btn-md-square me-2" href="#"><i class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Explore</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Latest Projects</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> testimonial</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Our Team</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Contact Info</h4>
-                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
-                            <div class="d-flex align-items-center">
-                                <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-light btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Registro -->
+                    <div class="col-10 col-lg-6 d-flex">
+                        <div class="footer-item d-flex flex-column w-100">
+                            <h4 class="text-white mb-4">¿Quieres mejorar tu salud dental?</h4>
+                            <p class="mb-3">Regístrate, déjanos tus comentarios o agenda tu cita con nosotros. ¡Estamos listos para atenderte!</p>
+                            <div class="position-relative rounded-pill">
+                                <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="email" placeholder="Ingresa tu correo electrónico">
+                                <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Registrarse</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item-post d-flex flex-column">
-                            <h4 class="text-white mb-4">Popular Post</h4>
-                            <div class="d-flex flex-column mb-3">
-                                <p class="text-uppercase text-primary mb-2">Investment</p>
-                                <a href="#" class="text-body">Revisiting Your Investment & Distribution Goals</a>
-                            </div>
-                            <div class="d-flex flex-column mb-3">
-                                <p class="text-uppercase text-primary mb-2">Business</p>
-                                <a href="#" class="text-body">Dimensional Fund Advisors Interview with Director</a>
-                            </div>
-                            <div class="footer-btn text-start">
-                                <a href="#" class="btn btn-light rounded-pill px-4">View All Post <i class="fa fa-arrow-right ms-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
         <!-- Footer End -->
-
-        
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-body"><a href="#" class="border-bottom text-primary"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-body">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-primary" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-primary" href="https://themewagon.com">ThemeWagon</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Copyright End -->
 
 
         <!-- Back to Top -->
