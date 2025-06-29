@@ -124,11 +124,11 @@
         <div class="container-fluid bg-breadcrumb">
             <div class="bg-breadcrumb-single"></div>
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h4>
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Servicios</h4>
                 <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active text-primary">Service</li>
+                    <li class="breadcrumb-item active text-primary">Servicio</li>
                 </ol>    
             </div>
         </div>
@@ -243,16 +243,16 @@ Además, tenemos las mejores promociones para ti y toda tu familia. Porque tu sa
 <!-- Services End -->
         <!-- Services End -->
                    
-        <!-- Testimonial Start -->
+        Testimonial Start -->
         <div class="container-fluid testimonial bg-light py-5">
             <div class="container py-5">
                 <div class="row g-4 align-items-center">
                     <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="h-100 rounded">
-                            <h4 class="text-primary">Nuestros comentarios </h4>
-                            <h1 class="display-4 mb-4">los clientes estan hablando</h1>
-                            <p class="mb-4">De todo los servicos que brindan.</p>
-                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">ver comentarios <i class="fas fa-arrow-right ms-2"></i></a>
+                            <h4 class="text-primary">Nuestros Testimonios </h4>
+                            <h1 class="display-4 mb-4">Clientes</h1>
+                            <p class="mb-4">Nuestros clientes lo confirman, somos confianza y eficacia</p>
+                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read All Reviews <i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                     <div class="col-xl-8">
@@ -261,6 +261,7 @@ Además, tenemos las mejores promociones para ti y toda tu familia. Porque tu sa
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
                                     <p class="mt-4">Siempre tuve complejos por el color amarillento de mis dientes. Después del tratamiento de blanqueamiento, mi sonrisa luce increíble. El proceso fue rápido, indoloro y los resultados son notables. Ahora sonrío con total confianza.
+                                    </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
@@ -268,14 +269,15 @@ Además, tenemos las mejores promociones para ti y toda tu familia. Porque tu sa
                                         <p class="mb-0">Tratamiento de Periodoncia</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-1.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/manuel.png" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Siempre tuve complejos por el color amarillento de mis dientes. Después del tratamiento de blanqueamiento, mi sonrisa luce increíble. El proceso fue rápido, indoloro y los resultados son notables. Ahora sonrío con total confianza.</p>
+                                    <p class="mt-4">Siempre tuve complejos por el color amarillento de mis dientes. Después del tratamiento de blanqueamiento, mi sonrisa luce increíble. El proceso fue rápido, indoloro y los resultados son notables. Ahora sonrío con total confianza.
+                                    </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
@@ -283,7 +285,7 @@ Además, tenemos las mejores promociones para ti y toda tu familia. Porque tu sa
                                         <p class="mb-0">Tratamiento de Ortodoncia</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-2.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/camila.png" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -295,11 +297,11 @@ Además, tenemos las mejores promociones para ti y toda tu familia. Porque tu sa
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Yanil Perez</h5>
-                                        <p class="mb-0">paciente</p>
+                                        <h5>Carlos Manrique</h5>
+                                        <p class="mb-0">Tratamiento de Blanqueamiento dental</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-3.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/carlos.png" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -308,7 +310,6 @@ Además, tenemos las mejores promociones para ti y toda tu familia. Porque tu sa
                 </div>
             </div>
         </div>
-        
         <!-- Testimonial End -->
 
 
@@ -378,7 +379,7 @@ Además, tenemos las mejores promociones para ti y toda tu familia. Porque tu sa
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
                         <div class="faq-img RotateMoveRight rounded">
-                            <img src="img/faq-img.jpg" class="img-fluid rounded w-100" alt="Image">
+                            <img src="img/plomo.avif" class="img-fluid rounded w-100" alt="Image">
                             <a class="faq-btn btn btn-primary rounded-pill text-white py-3 px-5" href="#">ver mas <i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>

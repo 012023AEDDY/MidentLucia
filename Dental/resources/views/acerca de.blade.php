@@ -89,7 +89,7 @@
                     <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
                             <div class="navbar-nav py-0 gap-3"> <!-- Usamos gap con Bootstrap 5 -->
                                 <a href="{{ url('/') }}" class="nav-item nav-link">Inicio</a>
-                                <a href="{{ url('/acerca de') }}" class="nav-item nav-link active">Acerca de</a>
+                                <a href="{{ url('/acerca de') }}" class="nav-item nav-link active">Acerca de Nostros</a>
                                 <a href="{{ url('/servicios') }}" class="nav-item nav-link">Servicios</a>
                                 <a href="{{ url('/especialistas') }}" class="nav-item nav-link">Especialistas</a>
                                 <a href="{{ url('/testimonios') }}" class="nav-item nav-link">Testimonios</a>
@@ -124,11 +124,11 @@
         <div class="container-fluid bg-breadcrumb">
             <div class="bg-breadcrumb-single"></div>
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">About Us</h4>
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Sobre Nosotros</h4>
                 <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active text-primary">About</li>
+                    <li class="breadcrumb-item active text-primary">sobre nosotros</li>
                 </ol>    
             </div>
         </div>
@@ -140,14 +140,18 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="about-img">
-                            <img src="img/about-3.png" class="img-fluid w-100 rounded-top bg-white" alt="Image">
-                            <img src="img/about-2.jpg" class="img-fluid w-100 rounded-bottom" alt="Image">
+                            <img src="img/sobre.png" class="img-fluid w-100 rounded-top bg-white" alt="Image">
+                            <img src="img/nosotros.png" class="img-fluid w-100 rounded-bottom" alt="Image">
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
-                        <h4 class="text-primary">About Us</h4>
-                        <h1 class="display-5 mb-4">The most Profitable Investments company in worldwide.</h1>
-                        <p class="text ps-4 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores atque nihil unde quisquam, deleniti illo a. Quam harum laboriosam, laudantium, deleniti perferendis voluptates ex non laborum libero magni, minus illo!
+                        <h4 class="text-primary">Consultorio Dental</h4>
+                        <h1 class="display-5 mb-4">Consultorio Dental, Mident Lucia "Somos especialistas en restauraciones esteticas</h1>
+                        <p class="text ps-4 mb-4">Atención especializada para niños (Odontopediatría)
+ ¡Y mucho más!
+ Atendidos por especialistas con postgrado internacional.
+ Contamos con las mejores promociones para ti y tu familia.
+En tan solo una visita puedes salir renovada y con una sonrisa radiante!
                         </p>
                         <div class="row g-4 justify-content-between mb-5">
                             <div class="col-lg-6 col-xl-5">
@@ -160,7 +164,7 @@
                             </div>
                         </div>
                         <div class="row g-4 justify-content-between mb-5">
-                            <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Discover More</a></div>
+                            <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Ver Testimonios</a></div>
                             <div class="col-xl-7 mb-5">
                                 <div class="about-customer d-flex position-relative">
                                     <img src="img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 0; top: 0;"  alt="Image">

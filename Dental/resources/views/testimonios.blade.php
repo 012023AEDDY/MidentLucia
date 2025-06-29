@@ -140,9 +140,9 @@
                 <div class="row g-4 align-items-center">
                     <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="h-100 rounded">
-                            <h4 class="text-primary">Our Feedbacks</h4>
-                            <h1 class="display-4 mb-4">Clients are Talking</h1>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque soluta unde itaque. Consequatur quam odit blanditiis harum veritatis porro.</p>
+                            <h4 class="text-primary">Nuestros Testimonios </h4>
+                            <h1 class="display-4 mb-4">Clientes</h1>
+                            <p class="mb-4">Nuestros clientes lo confirman, somos confianza y eficacia</p>
                             <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read All Reviews <i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
@@ -151,48 +151,48 @@
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
+                                    <p class="mt-4">Siempre tuve complejos por el color amarillento de mis dientes. Después del tratamiento de blanqueamiento, mi sonrisa luce increíble. El proceso fue rápido, indoloro y los resultados son notables. Ahora sonrío con total confianza.
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Manuel Alvarado</h5>
+                                        <p class="mb-0">Tratamiento de Periodoncia</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-1.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/manuel.png" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
+                                    <p class="mt-4">Siempre tuve complejos por el color amarillento de mis dientes. Después del tratamiento de blanqueamiento, mi sonrisa luce increíble. El proceso fue rápido, indoloro y los resultados son notables. Ahora sonrío con total confianza.
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Camila Fontana</h5>
+                                        <p class="mb-0">Tratamiento de Ortodoncia</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-2.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/camila.png" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.7s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
+                                    <p class="mt-4">Siempre tuve complejos por el color amarillento de mis dientes. Después del tratamiento de blanqueamiento, mi sonrisa luce increíble. El proceso fue rápido, indoloro y los resultados son notables. Ahora sonrío con total confianza.
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Carlos Manrique</h5>
+                                        <p class="mb-0">Tratamiento de Blanqueamiento dental</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-3.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/carlos.png" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>

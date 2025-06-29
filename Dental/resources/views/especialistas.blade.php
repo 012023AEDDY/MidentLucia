@@ -128,7 +128,7 @@
                 <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                 <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                <li class="breadcrumb-item active text-primary">Team</li>
+                <li class="breadcrumb-item active text-primary">Odontologo</li>
             </ol>
             
             </div>
@@ -139,14 +139,14 @@
         <div class="container-fluid team py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Team</h4>
-                    <h1 class="display-4">Our Investa Company Dedicated Team Member</h1>
+                    <h4 class="text-primary">nuestros especialistas</h4>
+                    <h1 class="display-4">Conozca a Nuestro Equipo Dental</h1>
                 </div>
                 <div class="row g-4 justify-content-center">
                     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item rounded">
                             <div class="team-img">
-                                <img src="img/team-1.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                                <img src="img/camila.png" class="img-fluid w-100 rounded-top" alt="Image">
                                 <div class="team-icon">
                                     <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
                                     <div class="team-icon-share">
@@ -158,8 +158,10 @@
                             </div>
                             <div class="team-content bg-dark text-center rounded-bottom p-4">
                                 <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
+                                    <h4 class="text-white">  Dra. Sofía Martínez </h4>
+                                    <p>Formación académica</p>
+                                    <p>Máster en Ortodoncia Pontificia Universidad Javeriana — Colombia Junio 2018</p>
+                                    <p class="text-muted mb-0">Doctorado en Estética Dental Universidad de Barcelona — España Marzo 2021</p>
                                 </div>
                             </div>
                         </div>
@@ -167,7 +169,7 @@
                     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item rounded">
                             <div class="team-img">
-                                <img src="img/team-2.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                                <img src="img/liliana.png" class="img-fluid w-100 rounded-top" alt="Image">
                                 <div class="team-icon">
                                     <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
                                     <div class="team-icon-share">
@@ -179,8 +181,10 @@
                             </div>
                             <div class="team-content bg-dark text-center rounded-bottom p-4">
                                 <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
+                                    <h4 class="text-white">  Dr. Carlos Méndez Brock</h4>
+                                    <p>Formación académica</p>
+                                    <p>Especialización en Rehabilitación Oral Universidad Nacional Autónoma de México — México Agosto 2017</p>
+                                    <p class="text-muted mb-0">Curso Avanzado en Ortodoncia Interceptiva Universidad de Chile — Chile Julio 2020</p>
                                 </div>
                             </div>
                         </div>
@@ -200,8 +204,10 @@
                             </div>
                             <div class="team-content bg-dark text-center rounded-bottom p-4">
                                 <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
+                                    <h4 class="text-white">Dra. Liliana Miranda</h4>
+                                    <p>Formación académica</p>
+                                    <p>Curso Avanzado en Ortodoncia Interceptiva Universidad de Chile — Chile Julio 2020</p>
+                                    <p class="text-muted mb-0">Especialización en Endodoncia Universidad Central de Venezuela — Venezuela Febrero 2015</p>
                                 </div>
                             </div>
                         </div>
@@ -222,6 +228,8 @@
                             <div class="team-content bg-dark text-center rounded-bottom p-4">
                                 <div class="team-content-inner rounded-bottom">
                                     <h4 class="text-white">Mark D. Brock</h4>
+                                    <p>Formación académica</p>
+                                    <p>Máster en Ortodoncia Pontificia Universidad Javeriana — Colombia Junio 2018</p>
                                     <p class="text-muted mb-0">CEO & Founder</p>
                                 </div>
                             </div>

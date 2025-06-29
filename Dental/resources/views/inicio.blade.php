@@ -124,43 +124,42 @@
         <div class="header-carousel owl-carousel">
             <div class="header-carousel-item">
                 <div class="header-carousel-item-img-1">
-                    <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+                    <img src="img/fondomident.webp" class="img-fluid w-100" alt="Image">
                 </div>
                 <div class="carousel-caption">
                     <div class="carousel-caption-inner text-start p-3">
-                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">The most prestigious Investments company in worldwide.</h1>
-                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">Su sonrisa en las mejores manos</h1>
+                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">Cuidamos de su salud bucal con los más altos estándares de calidad y tecnología de vanguardia 
                         </p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Apply Now</a>
-                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Read More</a>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Agendar una cita </a>
+                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Conocer servicios</a>
                     </div>
                 </div>
             </div>
             <div class="header-carousel-item mx-auto">
                 <div class="header-carousel-item-img-2">
-                    <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
+                    <img src="img/consultorio-png.jpg" class="img-fluid w-100" alt="Image">
                 </div>
                 <div class="carousel-caption">
                     <div class="carousel-caption-inner text-center p-3">
-                        <h1 class="display-1 text-capitalize text-white mb-4">The most prestigious Investments company in worldwide.</h1>
-                        <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        </p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
-                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a>
+                        <h1 class="display-1 text-capitalize text-white mb-4">Su sonrisa en las mejores manos</h1>
+                        <p class="mb-5 fs-5">Cuidamos de su salud bucal con los más altos estándares de calidad y tecnología de vanguardia</p>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Agendar una cita</a>
+                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Conocer servicios </a>
                     </div>
                 </div>
             </div>
             <div class="header-carousel-item">
                 <div class="header-carousel-item-img-3">
-                    <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Image">
+                    <img src="img/inicioM.png" class="img-fluid w-100" alt="Image">
                 </div>
                 <div class="carousel-caption">
                     <div class="carousel-caption-inner text-end p-3">
-                        <h1 class="display-1 text-capitalize text-white mb-4">The most prestigious Investments company in worldwide.</h1>
-                        <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        <h1 class="display-1 text-capitalize text-white mb-4">Su sonrisa en las mejores manos</h1>
+                        <p class="mb-5 fs-5">Cuidamos de su salud bucal con los más altos estándares de calidad y tecnología de vanguardia, 
                         </p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
-                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Agendar una cita </a>
+                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Conocer servicios</a>
                     </div>
                 </div>
             </div>
@@ -174,14 +173,18 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="about-img">
-                            <img src="img/about-3.png" class="img-fluid w-100 rounded-top bg-white" alt="Image">
-                            <img src="img/about-2.jpg" class="img-fluid w-100 rounded-bottom" alt="Image">
+                            <img src="img/sobre.png" class="img-fluid w-100 rounded-top bg-white" alt="Image">
+                            <img src="img/nosotros.png" class="img-fluid w-100 rounded-bottom" alt="Image">
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
-                        <h4 class="text-primary">About Us</h4>
-                        <h1 class="display-5 mb-4">The most Profitable Investments company in worldwide.</h1>
-                        <p class="text ps-4 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores atque nihil unde quisquam, deleniti illo a. Quam harum laboriosam, laudantium, deleniti perferendis voluptates ex non laborum libero magni, minus illo!
+                        <h4 class="text-primary">Consultorio Dental</h4>
+                        <h1 class="display-5 mb-4">Consultorio Dental, Mident Lucia "Somos especialistas en restauraciones esteticas</h1>
+                        <p class="text ps-4 mb-4">Atención especializada para niños (Odontopediatría)
+ ¡Y mucho más!
+ Atendidos por especialistas con postgrado internacional.
+ Contamos con las mejores promociones para ti y tu familia.
+En tan solo una visita puedes salir renovada y con una sonrisa radiante!
                         </p>
                         <div class="row g-4 justify-content-between mb-5">
                             <div class="col-lg-6 col-xl-5">
@@ -194,7 +197,7 @@
                             </div>
                         </div>
                         <div class="row g-4 justify-content-between mb-5">
-                            <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Discover More</a></div>
+                            <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Ver Testimonios</a></div>
                             <div class="col-xl-7 mb-5">
                                 <div class="about-customer d-flex position-relative">
                                     <img src="img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 0; top: 0;"  alt="Image">
@@ -255,8 +258,11 @@
 <div class="container-fluid service py-5">
     <div class="container py-5">
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-            <h4 class="text-primary">Our Services</h4>
-            <h1 class="display-4"> Offering the Best Consulting & Investa Services</h1>
+            <h4 class="text-primary">NUESTROS SERVICIOS</h4>
+            <h1 class="display-4"> En Mident Lucia, contamos con todos los tratamientos que necesitas para tu salud dental:
+ Atención especial para niños (odontopediatría)
+Además, tenemos las mejores promociones para ti y toda tu familia. Porque tu salud bucal está en manos de verdaderos especialistas con postgrado internacional.
+¡Te esperamos con una sonrisa!</h1>
         </div>
         <div class="row g-4 justify-content-center text-center">
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -266,9 +272,9 @@
                     </div>
                     <div class="service-content text-center p-4">
                         <div class="service-content-inner">
-                            <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Business Strategy Invesments</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime</p>
-                            <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
+                            <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Ortodoncia</a>
+                            <p class="mb-4">mejorando la fusion y estetica de la sonrisa </p>
+                            <a class="btn btn-light rounded-pill py-2 px-4" href="#">ver</a>
                         </div>
                     </div>
                 </div>
@@ -281,8 +287,8 @@
                     </div>
                     <div class="service-content text-center p-4">
                         <div class="service-content-inner">
-                            <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Consultancy & Advice</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime</p>
+                            <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Limpieza</a>
+                            <p class="mb-4">prevenir las caries</p>
                             <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                         </div>
                     </div>
@@ -296,8 +302,8 @@
                     </div>
                     <div class="service-content text-center p-4">
                         <div class="service-content-inner">
-                            <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Invesments Planning</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime</p>
+                            <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Blanqueamiento</a>
+                            <p class="mb-4">mejorando la fusion y estetica de la sonrisa</p>
                             <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                         </div>
                     </div>
@@ -308,12 +314,12 @@
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-light rounded">
                     <div class="service-img">
-                        <img src="img/service-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        <img src="img/image.png" class="img-fluid w-100 rounded-top" alt="Estetica">
                     </div>
                     <div class="service-content text-center p-4">
                         <div class="service-content-inner">
-                            <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Business Strategy Invesments</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime</p>
+                            <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Estetica</a>
+                            <p class="mb-4">mejorando la fusion y estetica de la sonrisa</p>
                             <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                         </div>
                     </div>
@@ -327,8 +333,8 @@
                     </div>
                     <div class="service-content text-center p-4">
                         <div class="service-content-inner">
-                            <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Consultancy & Advice</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime</p>
+                            <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Odontopediatria</a>
+                            <p class="mb-4">mejorando la fusion y estetica de la sonrisa</p>
                             <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                         </div>
                     </div>
@@ -342,8 +348,8 @@
                     </div>
                     <div class="service-content text-center p-4">
                         <div class="service-content-inner">
-                            <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Invesments Planning</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime</p>
+                            <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Rehabilitacion</a>
+                            <p class="mb-4">mejorando la fusion y estetica de la sonrisa </p>
                             <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                         </div>
                     </div>
@@ -354,7 +360,6 @@
     </div>
 </div>
 <!-- Services End -->
-
         <!-- Services End -->
 
 
@@ -592,15 +597,15 @@
         <!-- Team End -->
 
 
-        <!-- Testimonial Start -->
+        Testimonial Start -->
         <div class="container-fluid testimonial bg-light py-5">
             <div class="container py-5">
                 <div class="row g-4 align-items-center">
                     <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="h-100 rounded">
-                            <h4 class="text-primary">Our Feedbacks </h4>
-                            <h1 class="display-4 mb-4">Clients are Talking</h1>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque soluta unde itaque. Consequatur quam odit blanditiis harum veritatis porro.</p>
+                            <h4 class="text-primary">Nuestros Testimonios </h4>
+                            <h1 class="display-4 mb-4">Clientes</h1>
+                            <p class="mb-4">Nuestros clientes lo confirman, somos confianza y eficacia</p>
                             <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read All Reviews <i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
@@ -609,48 +614,48 @@
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
+                                    <p class="mt-4">Siempre tuve complejos por el color amarillento de mis dientes. Después del tratamiento de blanqueamiento, mi sonrisa luce increíble. El proceso fue rápido, indoloro y los resultados son notables. Ahora sonrío con total confianza.
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Manuel Alvarado</h5>
+                                        <p class="mb-0">Tratamiento de Periodoncia</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-1.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/manuel.png" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
+                                    <p class="mt-4">Siempre tuve complejos por el color amarillento de mis dientes. Después del tratamiento de blanqueamiento, mi sonrisa luce increíble. El proceso fue rápido, indoloro y los resultados son notables. Ahora sonrío con total confianza.
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Camila Fontana</h5>
+                                        <p class="mb-0">Tratamiento de Ortodoncia</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-2.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/camila.png" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.7s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
+                                    <p class="mt-4">Siempre tuve complejos por el color amarillento de mis dientes. Después del tratamiento de blanqueamiento, mi sonrisa luce increíble. El proceso fue rápido, indoloro y los resultados son notables. Ahora sonrío con total confianza.
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Carlos Manrique</h5>
+                                        <p class="mb-0">Tratamiento de Blanqueamiento dental</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-3.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/carlos.png" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -668,19 +673,19 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="pb-5">
-                            <h4 class="text-primary">FAQs</h4>
-                            <h1 class="display-4">Get the Answers to Common Questions</h1>
+                            <h4 class="text-primary">Preguntas frecuentes</h4>
+                            <h1 class="display-4">Obtenga las respuestas a las preguntas más frecuentes</h1>
                         </div>
                        <div class="accordion bg-light rounded p-4" id="accordionExample">
                             <div class="accordion-item border-0 mb-4">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button text-dark fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseTOne">
-                                        What Does a Financial Advisor Do?
+                                       ¿Cómo puedo agendar una cita?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body my-2">
-                                        <h5>Dolor sit amet consectetur adipisicing elit.</h5>
+                                        <h5>Puede agendar una cita llamando a nuestro número telefónico, enviando un correo electrónico o completando el formulario de contacto en esta página.        </h5>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo impedit, sapiente quis illo quia nulla atque maxime fuga minima ipsa quae cum consequatur, sit, delectus exercitationem odit officiis maiores! Neque, quidem corrupti modi architecto eos saepe incidunt dignissimos rerum.</p>
                                     </div>
                                 </div>
@@ -688,7 +693,7 @@
                             <div class="accordion-item border-0 mb-4">
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        What industries do you specialize in? 
+                                        ¿Aceptan seguros dentales? 
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -701,7 +706,7 @@
                             <div class="accordion-item border-0 mb-4">
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Can you guarantee for growth?
+                                        ¿Qué debo llevar a mi primera cita?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -714,7 +719,7 @@
                             <div class="accordion-item border-0 mb-0">
                                 <h2 class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        What makes your business plans so special?
+                                        ¿Ofrecen planes de pago?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -728,10 +733,11 @@
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
                         <div class="faq-img RotateMoveRight rounded">
-                            <img src="img/faq-img.jpg" class="img-fluid rounded w-100" alt="Image">
-                            <a class="faq-btn btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read More Q & A <i class="fas fa-arrow-right ms-2"></i></a>
+                            <img src="img/plomo.avif" class="img-fluid rounded w-100" alt="Image">
+                            <a class="faq-btn btn btn-primary rounded-pill text-white py-3 px-5" href="#">ver mas <i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
