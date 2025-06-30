@@ -326,7 +326,6 @@ Además, tenemos las mejores promociones para ti y toda tu familia.</span>
         <!-- Testimonial End -->
 
 
-        <!-- FAQ Start -->
 
         <!-- FAQ Start -->
         <div class="container-fluid faq py-5">
