@@ -275,7 +275,7 @@ Marzo 2021</p>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="text-white mb-4">Nuestros servicios</h4>
-                            <<a href="#"><i class="fas fa-angle-right me-2"></i> Ortodoncia</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Ortodoncia</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Limpieza</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Blanqueamiento</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Estetica</a>

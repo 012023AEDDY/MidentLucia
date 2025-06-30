@@ -232,13 +232,13 @@ Marzo 2021</p>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="text-white mb-4">Nuestros servicios</h4>
-                            <<a href="#"><i class="fas fa-angle-right me-2"></i> Ortodoncia</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i>Ortodoncia</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Limpieza</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Blanqueamiento</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Estetica</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Odontopediatria</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Rehabilitacion</a>
-                            <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center">
                                 <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-instagram"></i></a>
