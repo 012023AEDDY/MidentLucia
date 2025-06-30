@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Investa - Investment Website Template</title>
+        <title>MidentLucia</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -48,9 +48,10 @@
                 <div class="row gx-0 align-items-center" style="height: 45px;">
                     <div class="col-lg-8 text-center text-lg-start mb-lg-0">
                         <div class="d-flex flex-wrap">
-                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
-                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
-                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Calle Tecte #234, Cusco, Perú</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+51 997 498 670</a>
+                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>MidentLucia@gmail.com</a>
+
                         </div>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
@@ -124,11 +125,11 @@
         <div class="container-fluid bg-breadcrumb">
             <div class="bg-breadcrumb-single"></div>
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h4>
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contactanos</h4>
                 <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active text-primary">Contact</li>
+                    <li class="breadcrumb-item active text-primary">Contactanos</li>
                 </ol>    
             </div>
         </div>
@@ -141,29 +142,36 @@
                     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="contact-item">
                             <div class="pb-5">
-                                <h4 class="text-primary">Contact Us</h4>
-                                <h1 class="display-4 mb-4">Get In Touch With Us</h1>
+                                <h4 class="text-primary">Contactanos</h4>
+                                <h1 class="display-4 mb-4">Estamos aquí para responder a todas sus preguntas. Complete el formulario a continuación o utilice nuestra información de contacto para comunicarse con nosotros.</h1>
                                 <p class="mb-0">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
                             </div>
                             <div class="d-flex align-items-center mb-4">
                                 <div class="bg-primary btn-lg-square rounded-circle p-4"><i class="fa fa-home text-white"></i></div>
                                 <div class="ms-4">
-                                    <h4>Addresses</h4>
-                                    <p class="mb-0">123 ranking Street, New York, USA</p>
+                                    <h4>Dirección</h4>
+                                    <p class="mb-0">Av. Principal 123, Colonia Centro, Ciudad de México, CP 12345  </p>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center mb-4">
                                 <div class="bg-primary btn-lg-square rounded-circle p-2"><i class="fa fa-phone-alt text-white"></i></div>
                                 <div class="ms-4">
-                                    <h4>Mobile</h4>
-                                    <p class="mb-0">+012 345 67890</p>
+                                    <h4>Teléfono</h4>
+                                    <p class="mb-0">+51 55 1234 5678 </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="bg-primary btn-lg-square rounded-circle p-2"><i class="fa fa-phone-alt text-white"></i></div>
+                                <div class="ms-4">
+                                    <h4>Correo electrónico</h4>
+                                    <p class="mb-0">contacto@consultoriodental.com            </p>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center mb-4">
                                 <div class="bg-primary btn-lg-square rounded-circle p-2"><i class="fa fa-envelope-open text-white"></i></div>
                                 <div class="ms-4">
-                                    <h4>Email</h4>
-                                    <p class="mb-0">info@example.com</p>
+                                    <h4>Horario de atención</h4>
+                                    <p class="mb-0">Lunes a Viernes: 9:00 - 19:00</p>
                                 </div>
                             </div>
                         </div>
@@ -174,60 +182,91 @@
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating">
                                         <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
+                                        <label for="name">Ingrese su nombre completo</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating">
                                         <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
+                                        <label for="email">Su correo electrónico</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating">
                                         <input type="phone" class="form-control" id="phone" placeholder="Phone">
-                                        <label for="phone">Your Phone</label>
+                                        <label for="phone">Tu teléfono</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating">
                                         <input type="text" class="form-control" id="project" placeholder="Project">
-                                        <label for="project">Your Project</label>
+                                        <label for="project">Fecha deseada</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
+                                        <label for="subject">Asunto de su mensaje</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
-                                        <label for="message">Message</label>
+                                        <label for="message">Escriba su mensaje aquí...</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3">Send Message</button>
+                                    <button class="btn btn-primary w-100 py-3">Enviar mensaje</button>
                                 </div>
+                                
                             </div>
+                           <!-- Redes Sociales Start -->
+<div class="container-fluid bg-light py-5">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center wow fadeInUp" data-wow-delay="0.2s">
+                <h2 class="text-primary mb-4">¡Síguenos en nuestras redes!</h2>
+                <p class="mb-5">Conéctate con nosotros en las siguientes plataformas</p>
+
+                <div class="d-flex flex-column align-items-center gap-3">
+
+                    <a href="#" class="d-flex align-items-center bg-white shadow rounded-pill px-4 py-2 social-link text-decoration-none" style="transition: 0.3s;">
+                        <i class="fab fa-facebook-f text-primary me-3 fs-4"></i>
+                        <span class="fw-bold text-dark">Facebook</span>
+                    </a>
+
+                    <a href="#" class="d-flex align-items-center bg-white shadow rounded-pill px-4 py-2 social-link text-decoration-none" style="transition: 0.3s;">
+                        <i class="fab fa-instagram text-danger me-3 fs-4"></i>
+                        <span class="fw-bold text-dark">Instagram</span>
+                    </a>
+
+                    <a href="#" class="d-flex align-items-center bg-white shadow rounded-pill px-4 py-2 social-link text-decoration-none" style="transition: 0.3s;">
+                        <i class="fab fa-twitter text-info me-3 fs-4"></i>
+                        <span class="fw-bold text-dark">Twitter</span>
+                    </a>
+
+                    <a href="#" class="d-flex align-items-center bg-white shadow rounded-pill px-4 py-2 social-link text-decoration-none" style="transition: 0.3s;">
+                        <i class="fab fa-linkedin-in text-primary me-3 fs-4"></i>
+                        <span class="fw-bold text-dark">LinkedIn</span>
+                    </a>
+
+                    <a href="https://wa.me/51999999999" target="_blank" class="d-flex align-items-center bg-white shadow rounded-pill px-4 py-2 social-link text-decoration-none" style="transition: 0.3s;">
+                        <i class="fab fa-whatsapp text-success me-3 fs-4"></i>
+                        <span class="fw-bold text-dark">WhatsApp</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Redes Sociales End -->
+
+
+
                         </form>
                     </div>
-                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="rounded h-100">
-                            <iframe class="rounded-top w-100" 
-                            style="height: 500px; margin-bottom: -6px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" 
-                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            <div class="d-flex align-items-center justify-content-center bg-primary rounded-bottom p-4">
-                                <div class="d-flex">
-                                    <a class="btn btn-dark btn-lg-square rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-dark btn-lg-square rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-dark btn-lg-square rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
-                                    <a class="btn btn-dark btn-lg-square rounded-circle mx-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -235,40 +274,41 @@
 
         <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <div class="footer-item">
-                                <h4 class="text-white mb-4">Newsletter</h4>
-                                <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+                                <h4 class="text-white mb-4">MidentLucia</h4>
+                                <p class="mb-3">Consultorio Dental, Mident Lucia "Somos especialistas en restauraciones esteticas</p>
                                 <div class="position-relative mx-auto rounded-pill">
                                     <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                                    <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                                    <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">redsocial</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Explore</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Latest Projects</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> testimonial</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Our Team</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                            <h4 class="text-white mb-4">Enlaces Rápidos</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Inico</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Servicios</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Acerca de</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Especialistas</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> testimonios</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contactenos</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Contact Info</h4>
-                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
+                            <h4 class="text-white mb-4">Nuestros servicios</h4>
+                            <<a href="#"><i class="fas fa-angle-right me-2"></i> Ortodoncia</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Limpieza</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Blanqueamiento</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Estetica</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Odontopediatria</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Rehabilitacion</a>
                             <div class="d-flex align-items-center">
                                 <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-twitter"></i></a>
@@ -279,20 +319,22 @@
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item-post d-flex flex-column">
-                            <h4 class="text-white mb-4">Popular Post</h4>
+                            <h4 class="text-white mb-4">Contactanos</h4>
                             <div class="d-flex flex-column mb-3">
-                                <p class="text-uppercase text-primary mb-2">Investment</p>
-                                <a href="#" class="text-body">Revisiting Your Investment & Distribution Goals</a>
+                                <p class="text-uppercase text-primary mb-2">Calle Tecte #234, Cusco, Perú  </p>
+                                <a href="#" class="text-body">51 997 498 670</a>
                             </div>
                             <div class="d-flex flex-column mb-3">
-                                <p class="text-uppercase text-primary mb-2">Business</p>
-                                <a href="#" class="text-body">Dimensional Fund Advisors Interview with Director</a>
+                                <p class="text-uppercase text-primary mb-2">MidentLucia@gmail.com </p>
+                               
                             </div>
                             <div class="footer-btn text-start">
-                                <a href="#" class="btn btn-light rounded-pill px-4">View All Post <i class="fa fa-arrow-right ms-1"></i></a>
+                                <a href="#" class="btn btn-light rounded-pill px-4">Volver al inicio <i class="fa fa-arrow-right ms-1"></i></a>
+
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
