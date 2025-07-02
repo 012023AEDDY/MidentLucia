@@ -2,7 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 use Livewire\Volt\Volt;
-
+use App\Livewire\GestionMedicos;
+use App\Livewire\GestionPacientes;
+use App\Livewire\GestionRolUsuario;
+use App\Livewire\GestionCitas;
+use App\Livewire\GestionComentarios;
 Route::get('/', function () {
     return view('inicio');
 })->name('inicio');
@@ -26,6 +30,11 @@ Route::middleware(['auth'])->group(function () {
     Volt::route('settings/profile', 'settings.profile')->name('settings.profile');
     Volt::route('settings/password', 'settings.password')->name('settings.password');
     Volt::route('settings/appearance', 'settings.appearance')->name('settings.appearance');
+    Route::get('/pacientes', GestionPacientes::class)->name('pacientes');
+    Route::get('/medicos', GestionMedicos::class)->name('medicos');
+    Route::get('/roles', GestionRolUsuario::class)->name('roles');
+    Route::get('/citas', GestionCitas::class)->name('citas');;
+    Route::get('/gestion-comentarios', GestionComentarios::class)->name('gestion-comentarios');
 });
 
 require __DIR__.'/auth.php';

@@ -12,7 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('comentarios', function (Blueprint $table) {
-            $table->id();
+            $table->id('id_comentario');
+            $table->date('fecha_comentario');
+            $table->string('mensaje', 450);
+            $table->string('estado_comentario', 30);
+            $table->unsignedBigInteger('id_cita');
+            $table->foreign('id_cita')->references('id_cita')->on('citas')->onDelete('cascade');
             $table->timestamps();
         });
     }

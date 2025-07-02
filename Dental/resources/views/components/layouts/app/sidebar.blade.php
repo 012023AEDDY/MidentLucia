@@ -17,6 +17,20 @@
                 </flux:navlist.group>
             </flux:navlist>
 
+            <flux:navlist variant="outline">
+            <flux:navlist.group heading="Sistema Dental" class="grid">
+                @if(auth()->user() && (auth()->user()->isAdmin() || auth()->user()->isSecretaria()))
+                    <flux:navlist.item icon="user-group" :href="route('pacientes')" :current="request()->routeIs('pacientes')" wire:navigate>Gestión de Pacientes</flux:navlist.item>
+                    <flux:navlist.item icon="user-group" :href="route('medicos')" :current="request()->routeIs('medicos')" wire:navigate>Gestión de Médicos </flux:navlist.item>
+                @endif
+
+                @if(auth()->user() && auth()->user()->isAdmin())
+                    <flux:navlist.item icon="user-group" :href="route('roles')" :current="request()->routeIs('roles')" wire:navigate>Gestión de Roles de Usuario</flux:navlist.item>
+                    <flux:navlist.item icon="user-group" :href="route('citas')" :current="request()->routeIs('citas')" wire:navigate>Gestión de Citas</flux:navlist.item>
+                    <flux:navlist.item icon="user-group" :href="route('gestion-comentarios')" :current="request()->routeIs('gestion-comentarios')" wire:navigate>Gestión de Comentarios</flux:navlist.item>
+                @endif
+            </flux:navlist.group>
+        </flux:navlist>
             <flux:spacer />
 
             <flux:navlist variant="outline">
@@ -128,5 +142,6 @@
         {{ $slot }}
 
         @fluxScripts
+        @livewireScripts
     </body>
 </html>

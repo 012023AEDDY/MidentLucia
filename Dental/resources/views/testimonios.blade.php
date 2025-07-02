@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Investa - Investment Website Template</title>
+        <title>MidentLucia</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -48,9 +48,10 @@
                 <div class="row gx-0 align-items-center" style="height: 45px;">
                     <div class="col-lg-8 text-center text-lg-start mb-lg-0">
                         <div class="d-flex flex-wrap">
-                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
-                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
-                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Calle Tecte #234, Cusco, Perú</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+51 997 498 670</a>
+                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>MidentLucia@gmail.com</a>
+
                         </div>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
@@ -126,7 +127,7 @@
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Testimonial</h4>
                 <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
                     <li class="breadcrumb-item active text-primary">Testimonial</li>
                 </ol>    
@@ -135,14 +136,15 @@
         <!-- Header End -->
 
         <!-- Testimonial Start -->
-        <div class="container-fluid testimonial bg-light py-5">
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial py-5">
             <div class="container py-5">
                 <div class="row g-4 align-items-center">
                     <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="h-100 rounded">
-                            <h4 class="text-primary">Our Feedbacks</h4>
-                            <h1 class="display-4 mb-4">Clients are Talking</h1>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque soluta unde itaque. Consequatur quam odit blanditiis harum veritatis porro.</p>
+                            <h4 class="text-primary">Nuestros Testimonios </h4>
+                            <h1 class="display-4 mb-4">Clientes</h1>
+                            <p class="mb-4">Nuestros clientes lo confirman, somos confianza y eficacia</p>
                             <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read All Reviews <i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
@@ -151,94 +153,106 @@
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
+                                    <p class="mt-4">Siempre tuve complejos por el color amarillento de mis dientes. Después del tratamiento de blanqueamiento, mi sonrisa luce increíble. El proceso fue rápido, indoloro y los resultados son notables. Ahora sonrío con total confianza.
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Manuel Alvarado</h5>
+                                        <p class="mb-0">Tratamiento de Periodoncia</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-1.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/manuel.png" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
+                                    <p class="mt-4">Siempre tuve complejos por el color amarillento de mis dientes. Después del tratamiento de blanqueamiento, mi sonrisa luce increíble. El proceso fue rápido, indoloro y los resultados son notables. Ahora sonrío con total confianza.
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Camila Fontana</h5>
+                                        <p class="mb-0">Tratamiento de Ortodoncia</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-2.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/camila.png" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.7s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
+                                    <p class="mt-4">Siempre tuve complejos por el color amarillento de mis dientes. Después del tratamiento de blanqueamiento, mi sonrisa luce increíble. El proceso fue rápido, indoloro y los resultados son notables. Ahora sonrío con total confianza.
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Carlos Manrique</h5>
+                                        <p class="mb-0">Tratamiento de Blanqueamiento dental</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-3.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
+                                        <img src="img/carlos.png" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
                                     </div>
                                 </div>
+
+                            </div>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
                             </div>
                         </div>
+                        
                     </div>
+                    
                 </div>
             </div>
         </div>
         <!-- Testimonial End -->
+        <!-- Testimonial End -->
 
-        <!-- Footer Start -->
+       <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <div class="footer-item">
-                                <h4 class="text-white mb-4">Newsletter</h4>
-                                <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+                                <h4 class="text-white mb-4">MidentLucia</h4>
+                                <p class="mb-3">Consultorio Dental, Mident Lucia "Somos especialistas en restauraciones esteticas</p>
                                 <div class="position-relative mx-auto rounded-pill">
                                     <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                                    <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                                    <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">redsocial</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Explore</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Latest Projects</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> testimonial</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Our Team</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                            <h4 class="text-white mb-4">Enlaces Rápidos</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Inico</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Servicios</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Acerca de</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Especialistas</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> testimonios</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contactenos</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Contact Info</h4>
-                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
+                            <h4 class="text-white mb-4">Nuestros servicios</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Ortodoncia</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Limpieza</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Blanqueamiento</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Estetica</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Odontopediatria</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Rehabilitacion</a>
                             <div class="d-flex align-items-center">
                                 <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-twitter"></i></a>
@@ -249,20 +263,22 @@
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item-post d-flex flex-column">
-                            <h4 class="text-white mb-4">Popular Post</h4>
+                            <h4 class="text-white mb-4">Contactanos</h4>
                             <div class="d-flex flex-column mb-3">
-                                <p class="text-uppercase text-primary mb-2">Investment</p>
-                                <a href="#" class="text-body">Revisiting Your Investment & Distribution Goals</a>
+                                <p class="text-uppercase text-primary mb-2">Calle Tecte #234, Cusco, Perú  </p>
+                                <a href="#" class="text-body">51 997 498 670</a>
                             </div>
                             <div class="d-flex flex-column mb-3">
-                                <p class="text-uppercase text-primary mb-2">Business</p>
-                                <a href="#" class="text-body">Dimensional Fund Advisors Interview with Director</a>
+                                <p class="text-uppercase text-primary mb-2">MidentLucia@gmail.com </p>
+                               
                             </div>
                             <div class="footer-btn text-start">
-                                <a href="#" class="btn btn-light rounded-pill px-4">View All Post <i class="fa fa-arrow-right ms-1"></i></a>
+                                <a href="#" class="btn btn-light rounded-pill px-4">Volver al inicio <i class="fa fa-arrow-right ms-1"></i></a>
+
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

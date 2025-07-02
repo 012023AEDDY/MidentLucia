@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Str;
+use App\Models\RolUsuario;
+use App\Models\Medico;
+
 
 class User extends Authenticatable
 {
@@ -22,8 +25,12 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'contrasenia',
+        'estado',
+        'fecha_creacion',
+        'id_rol',
     ];
-
+    
     /**
      * The attributes that should be hidden for serialization.
      *
@@ -57,5 +64,19 @@ class User extends Authenticatable
             ->take(2)
             ->map(fn ($word) => Str::substr($word, 0, 1))
             ->implode('');
+    }
+    public function rol()
+    {
+        return $this->belongsTo(\App\Models\RolUsuario::class, 'id_rol');
+    }
+ 
+    public function isAdmin()
+    {
+        return $this->rol && $this->rol->nombre_rol === 'Administrador';
+    }
+ 
+    public function isSecretaria()
+    {
+        return $this->rol && $this->rol->nombre_rol === 'Secretaria';
     }
 }

@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\Models\User;
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -12,13 +11,37 @@ class DatabaseSeeder extends Seeder
      * Seed the application's database.
      */
     public function run(): void
-    {
-        // User::factory(10)->create();
+{
+    // 1. Primero, crea los roles
+    $this->call([
+        RolUsuarioSeeder::class,
+    ]);
 
-        User::factory()->create([
+    // 2. Luego, crea los usuarios con el id_rol correcto
+    if (!User::where('email', 'milkonmmaniccama@gmail.com')->exists()) {
+        User::create([
             'name' => 'milkon mamani',
             'email' => 'milkonmmaniccama@gmail.com',
             'password' => bcrypt('12345678'),
+            'id_rol' => 1, // Asegúrate que 1 es Administrador
         ]);
     }
+
+    if (!User::where('email', 'secretaria@gmail.com')->exists()) {
+        User::create([
+            'name' => 'Secretaria',
+            'email' => 'secretaria@gmail.com',
+            'password' => bcrypt('12345secretaria'),
+            'id_rol' => 2, // Asegúrate que 2 es Secretaria
+        ]);
+    }
+
+    // 3. Luego, los demás seeders
+    $this->call([
+        PacienteSeeder::class,
+        MedicoSeeder::class,
+        CitaSeeder::class,
+        ComentarioSeeder::class,
+    ]);
+}
 }

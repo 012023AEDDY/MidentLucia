@@ -6,9 +6,6 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     */
     public function up(): void
     {
         Schema::create('users', function (Blueprint $table) {
@@ -18,6 +15,13 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
+
+            $table->string('contrasenia', 30)->nullable(); // opcional
+            $table->string('estado', 30)->default('activo');
+            $table->date('fecha_creacion')->nullable();
+            $table->unsignedBigInteger('id_rol')->nullable();
+
+            $table->foreign('id_rol')->references('id')->on('rol_usuarios')->onDelete('set null');
             $table->timestamps();
         });
 
@@ -37,13 +41,18 @@ return new class extends Migration
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
-        Schema::dropIfExists('users');
-        Schema::dropIfExists('password_reset_tokens');
+        // Eliminar FK y columnas SOLO si la tabla 'users' existe
+        if (Schema::hasTable('users')) {
+            Schema::table('users', function (Blueprint $table) {
+                $table->dropForeign(['id_rol']);
+                $table->dropColumn(['contrasenia', 'estado', 'fecha_creacion', 'id_rol']);
+            });
+        }
+
         Schema::dropIfExists('sessions');
+        Schema::dropIfExists('password_reset_tokens');
+        Schema::dropIfExists('users');
     }
 };
