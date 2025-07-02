@@ -7,6 +7,8 @@ use App\Livewire\GestionPacientes;
 use App\Livewire\GestionRolUsuario;
 use App\Livewire\GestionCitas;
 use App\Livewire\GestionComentarios;
+use App\Livewire\RegistroPaciente;
+
 Route::get('/', function () {
     return view('inicio');
 })->name('inicio');
@@ -36,5 +38,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/citas', GestionCitas::class)->name('citas');;
     Route::get('/gestion-comentarios', GestionComentarios::class)->name('gestion-comentarios');
 });
+
+Route::get('/registrar-paciente', RegistroPaciente::class)->name('registro.paciente');
 
 require __DIR__.'/auth.php';

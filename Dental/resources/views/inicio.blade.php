@@ -95,6 +95,8 @@
                                 <a href="{{ url('/especialistas') }}" class="nav-item nav-link">Especialistas</a>
                                 <a href="{{ url('/testimonios') }}" class="nav-item nav-link">Testimonios</a>
                                 <a href="{{ url('/contactenos') }}" class="nav-item nav-link">Contactenos</a>
+                                <a href="{{ route('registro.paciente') }}" class="nav-item nav-link text-primary fw-bold">Registrar</a>
+                           
                             </div>
                         </div>
                 </nav>
@@ -621,8 +623,8 @@ Marzo 2021</p>
                         <span class="text-body"><a href="#" class="border-bottom text-primary"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
                     </div>
                     <div class="col-md-6 text-center text-md-end text-body">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** This template is free as long as you keep the below author's credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author's credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
                         Designed By <a class="border-bottom text-primary" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-primary" href="https://themewagon.com">ThemeWagon</a>
                     </div>

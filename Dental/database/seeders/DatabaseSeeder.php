@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'milkon mamani',
             'email' => 'milkonmmaniccama@gmail.com',
             'password' => bcrypt('12345678'),
-            'id_rol' => 1, // Asegúrate que 1 es Administrador
+            'id_rol' => 1, 
         ]);
          User::factory()->create([
             'name' => 'diana huanca',
@@ -37,7 +37,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Secretaria',
             'email' => 'secretaria@gmail.com',
             'password' => bcrypt('12345secretaria'),
-            'id_rol' => 2, // Asegúrate que 2 es Secretaria
+            'id_rol' => 2, 
         ]);
     }
 

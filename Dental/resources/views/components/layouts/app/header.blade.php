@@ -44,12 +44,13 @@
             </flux:navbar>
 
             <!-- Desktop User Menu -->
+            @php $user = auth()->user(); @endphp
+            @if($user)
             <flux:dropdown position="top" align="end">
                 <flux:profile
                     class="cursor-pointer"
-                    :initials="auth()->user()->initials()"
+                    :initials="\$user->initials()"
                 />
-
                 <flux:menu>
                     <flux:menu.radio.group>
                         <div class="p-0 text-sm font-normal">
@@ -58,26 +59,21 @@
                                     <span
                                         class="flex h-full w-full items-center justify-center rounded-lg bg-neutral-200 text-black dark:bg-neutral-700 dark:text-white"
                                     >
-                                        {{ auth()->user()->initials() }}
+                                        {{ $user->initials() }}
                                     </span>
                                 </span>
-
                                 <div class="grid flex-1 text-start text-sm leading-tight">
-                                    <span class="truncate font-semibold">{{ auth()->user()->name }}</span>
-                                    <span class="truncate text-xs">{{ auth()->user()->email }}</span>
+                                    <span class="truncate font-semibold">{{ $user->name }}</span>
+                                    <span class="truncate text-xs">{{ $user->email }}</span>
                                 </div>
                             </div>
                         </div>
                     </flux:menu.radio.group>
-
                     <flux:menu.separator />
-
                     <flux:menu.radio.group>
                         <flux:menu.item :href="route('settings.profile')" icon="cog" wire:navigate>{{ __('Settings') }}</flux:menu.item>
                     </flux:menu.radio.group>
-
                     <flux:menu.separator />
-
                     <form method="POST" action="{{ route('logout') }}" class="w-full">
                         @csrf
                         <flux:menu.item as="button" type="submit" icon="arrow-right-start-on-rectangle" class="w-full">
@@ -86,6 +82,7 @@
                     </form>
                 </flux:menu>
             </flux:dropdown>
+            @endif
         </flux:header>
 
         <!-- Mobile Menu -->

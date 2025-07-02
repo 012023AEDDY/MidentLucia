@@ -41,13 +41,24 @@
                 <flux:navlist.item icon="book-open-text" href="https://laravel.com/docs/starter-kits#livewire" target="_blank">
                 {{ __('Documentation') }}
                 </flux:navlist.item>
+                @auth
+                    <form method="POST" action="{{ route('logout') }}" style="margin-top: 1rem;">
+                        @csrf
+                        <button type="submit" class="nav-link btn btn-link w-100 text-start" style="color: #dc3545;">
+                            <i class="bi bi-box-arrow-right me-2"></i> Log Out
+                        </button>
+                    </form>
+                @endauth
             </flux:navlist>
 
             <!-- Desktop User Menu -->
             <flux:dropdown class="hidden lg:block" position="bottom" align="start">
+                @php $user = auth()->user(); @endphp
                 <flux:profile
-                    :name="auth()->user()->name"
-                    :initials="auth()->user()->initials()"
+                    @if($user)
+                        :name="\$user->name"
+                        :initials="\$user->initials()"
+                    @endif
                     icon:trailing="chevrons-up-down"
                 />
 
@@ -59,14 +70,16 @@
                                     <span
                                         class="flex h-full w-full items-center justify-center rounded-lg bg-neutral-200 text-black dark:bg-neutral-700 dark:text-white"
                                     >
-                                        {{ auth()->user()->initials() }}
+                                        @if($user)
+                                            {{ $user->initials() }}
+                                        @endif
                                     </span>
                                 </span>
 
-                                <div class="grid flex-1 text-start text-sm leading-tight">
-                                    <span class="truncate font-semibold">{{ auth()->user()->name }}</span>
-                                    <span class="truncate text-xs">{{ auth()->user()->email }}</span>
-                                </div>
+                                @if($user)
+                                    <span class="truncate font-semibold">{{ $user->name }}</span>
+                                    <span class="truncate text-xs">{{ $user->email }}</span>
+                                @endif
                             </div>
                         </div>
                     </flux:menu.radio.group>
@@ -96,8 +109,11 @@
             <flux:spacer />
 
             <flux:dropdown position="top" align="end">
+                @php $user = auth()->user(); @endphp
                 <flux:profile
-                    :initials="auth()->user()->initials()"
+                    @if($user)
+                        :initials="\$user->initials()"
+                    @endif
                     icon-trailing="chevron-down"
                 />
 
@@ -109,14 +125,16 @@
                                     <span
                                         class="flex h-full w-full items-center justify-center rounded-lg bg-neutral-200 text-black dark:bg-neutral-700 dark:text-white"
                                     >
-                                        {{ auth()->user()->initials() }}
+                                        @if($user)
+                                            {{ $user->initials() }}
+                                        @endif
                                     </span>
                                 </span>
 
-                                <div class="grid flex-1 text-start text-sm leading-tight">
-                                    <span class="truncate font-semibold">{{ auth()->user()->name }}</span>
-                                    <span class="truncate text-xs">{{ auth()->user()->email }}</span>
-                                </div>
+                                @if($user)
+                                    <span class="truncate font-semibold">{{ $user->name }}</span>
+                                    <span class="truncate text-xs">{{ $user->email }}</span>
+                                @endif
                             </div>
                         </div>
                     </flux:menu.radio.group>
