@@ -25,6 +25,11 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('12345678'),
             'id_rol' => 1, // Asegúrate que 1 es Administrador
         ]);
+         User::factory()->create([
+            'name' => 'diana huanca',
+            'email' => 'd.vane.huancacruz@gmail.com',
+            'password' => bcrypt('1234'),
+        ]);
     }
 
     if (!User::where('email', 'secretaria@gmail.com')->exists()) {
